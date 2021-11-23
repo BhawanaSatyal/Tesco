@@ -15,7 +15,8 @@ public class TescoLogin {
         driver.get("https://www.tesco.com/groceries/en-GB/");
 
         driver.manage().window().maximize();
-       //driver.findElement(By.linkText("Register")).click();
+        driver.findElement(By.linkText("Register")).click();
        // driver.findElement(By.xpath("//a[@id='utility-header-registration-link']/span[@class='styled__Text-sc-1xizymv-1 fvwfIX beans-link__text']")).click();
+
     }
 }
